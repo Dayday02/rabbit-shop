@@ -1,5 +1,5 @@
 <script setup>
-// 表单校验（账户名+密码）
+// 表单校验（账户名+密码）  cdshi0088 123456
 import { ref } from 'vue'
 import { ElMessage } from 'element-plus'
 import 'element-plus/theme-chalk/el-message.css'
