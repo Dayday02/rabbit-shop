@@ -58,9 +58,10 @@ const router = createRouter({
         {
           path: "member",
           component: Member,
+          redirect:'member/user',
           children: [
             {
-              path: "", // 置空path
+              path: "user", // 置空path
               component: UserInfo
             },
             {
